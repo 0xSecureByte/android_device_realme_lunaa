@@ -44,6 +44,7 @@ BOARD_SUPER_PARTITION_SIZE := 10200547328
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/properties/system_ext.prop
 
 # SELinux - Include additional tree-specific rules
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
