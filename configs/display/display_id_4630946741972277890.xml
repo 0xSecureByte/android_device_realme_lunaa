@@ -22,4 +22,15 @@
             </point>
         </sdrHdrRatioMap>
     </highBrightnessMode>
+
+    <screenBrightnessMap>
+    <point>
+        <value>0.0</value>
+        <nits>10.0</nits>
+    </point>
+    <point>
+        <value>1.0</value>
+        <nits>417.0</nits>
+    </point>
+    </screenBrightnessMap>
 </displayConfiguration>
