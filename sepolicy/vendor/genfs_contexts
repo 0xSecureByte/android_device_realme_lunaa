@@ -2,7 +2,7 @@
 genfscon sysfs /kernel/oplus_display/dimlayer_bl_en     u:object_r:vendor_sysfs_dc_dim:s0
 
 # Power - fast-charging node
-genfscon sysfs /sys/class/oplus_chg/battery/fast_charge u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /sys/class/oplus_chg/battery/voocchg_ing u:object_r:vendor_sysfs_battery_supply:s0
 
 # Sensors
 genfscon proc /sensor/als_cali                          u:object_r:vendor_proc_oplus_als_file:s0
