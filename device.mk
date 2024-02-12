@@ -34,10 +34,8 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.st \
-    android.hardware.secure_element-service.thales \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
-    init.lunaa.rc \
     Tag
 
 PRODUCT_COPY_FILES += \
