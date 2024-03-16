@@ -719,6 +719,7 @@ odm/lib64/camera/com.qti.tuned.qtech_ov64b.bin
 odm/lib64/camera/com.qti.tuned.sunny_hi846.bin
 odm/lib64/camera/com.qti.tuned.sunny_imx615.bin
 odm/lib64/lib2DSlender.so
+odm/lib64/libOPAlgoCamFaceBeautyCap.so
 odm/lib64/libAlgoInterface.so
 odm/lib64/libAlgoProcess.so
 odm/lib64/libAncFilter.so
@@ -734,6 +735,7 @@ odm/lib64/libBokehPre.so
 odm/lib64/libCOppLceTonemapAPI.so
 odm/lib64/libCaptureBokeh.so
 odm/lib64/libDeVIS.so
+odm/lib64/libXDocProcessSDK-jni.so
 odm/lib64/libEIS.so
 odm/lib64/libFaceBeautyCap.so
 odm/lib64/libFaceBeautyPICap.so
@@ -806,6 +808,7 @@ odm/lib64/libarcsoft_scbokeh_video.so
 odm/lib64/libarcsoft_smart_denoise.so
 odm/lib64/libarcsoft_smart_denoise_v4.so
 odm/lib64/libarcsoft_super_night_raw.so
+odm/lib64/libarcsoft_turbo_fusion_raw_grf.so
 odm/lib64/libarcsoft_videoautozoom.so
 odm/lib64/libc++_shared.so
 odm/lib64/libcom.oplus.calidatacontainer.so
@@ -836,6 +839,7 @@ odm/lib64/libtriplecam_image_optical_zoom.so
 odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libwatermark_photo.so
+odm/lib64/libYTCommon.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
