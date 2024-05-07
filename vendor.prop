@@ -1,13 +1,15 @@
 # ALS
 vendor.sensors.als_correction.grabrect=586 0 714 104
-vendor.sensors.als_correction.bias=0
-vendor.sensors.als_correction.hbr=true
-vendor.sensors.als_correction.rgbw_max_lux=1500.0 2600.0 1400.0 4600.0
-vendor.sensors.als_correction.rgbw_max_lux_div=1437.0 2427.0 1369.0 4606.0
-vendor.sensors.als_correction.rgbw_poly1=4.787111E-5 0.0073087 0.6651031 0.0
-vendor.sensors.als_correction.rgbw_poly2=1.1037093E-4 0.0059161806 0.82983816 0.0
-vendor.sensors.als_correction.rgbw_poly3=4.6553232E-5 0.008220689 0.24763061 0.0
-vendor.sensors.als_correction.rgbw_poly4=7.379156E-5 0.006951839 0.6299237 0.0
-vendor.sensors.als_correction.grayscale_weights=0.33 0.42 0.25
-vendor.sensors.als_correction.sensor_gaincal_points=1050.0 800.0 450.0 0.0
-vendor.sensors.als_correction.sensor_inverse_gain=0.0288 0.0361 0.0466 0.0615
+persist.vendor.sensors.als_correction.cali_coe=900
+persist.vendor.sensors.als_correction.row_coe=110
+persist.vendor.sensors.als_correction.bias=0
+persist.vendor.sensors.als_correction.hbr=true
+persist.vendor.sensors.als_correction.grayscale_weights=0.316 0.385 0.299
+persist.vendor.sensors.als_correction.rgbw_max_lux=1057.0 751.0 276.0 2005.0
+persist.vendor.sensors.als_correction.rgbw_max_lux_div=1157.0 851.0 356.0 2105.0
+persist.vendor.sensors.als_correction.rgbw_poly1=0.00002704 0.00681 0.22414 -0.5450117
+persist.vendor.sensors.als_correction.rgbw_poly2=0.000008 0.01655 -0.20433 -0.08428217
+persist.vendor.sensors.als_correction.rgbw_poly3=-0.00000253 0.01673 -0.41113 0.52842677
+persist.vendor.sensors.als_correction.rgbw_poly4=-0.000063798 0.0261 -1.64283 -0.16610238
+persist.vendor.sensors.als_correction.sensor_gaincal_points=1050.0 800.0 450.0 0.0
+persist.vendor.sensors.als_correction.sensor_inverse_gain=0.11 0.032 0.140 0.035
