@@ -475,4 +475,17 @@
         <item>96</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
+    <!-- Why don’t sailfish ever get lost? Because they always follow the current! -->
+    <string-array name="config_certifiedBuildProperties" translatable="false">
+          <item>PRODUCT:sailfish</item>
+          <item>DEVICE:sailfish</item>
+          <item>HARDWARE:sailfish</item>
+          <item>MANUFACTURER:Google</item>
+          <item>BRAND:google</item>
+          <item>MODEL:Pixel</item>
+          <item>ID:OPM1.171019.011</item>
+          <item>FINGERPRINT:google/sailfish/sailfish:8.1.0/OPM1.171019.011/4448085:user/release-keys</item>
+     </string-array>
+
+     <string name="config_stockFingerprint" translatable="false">realme/RMX3360/RE54ABL1:13/TP1A.220905.001/R.e9a1c9_63b61_5d8e0:user/release-keys</string>
 </resources>
