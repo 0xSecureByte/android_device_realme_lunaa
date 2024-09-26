@@ -11,10 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lunaa device
 $(call inherit-product, device/realme/lunaa/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common StatiX stuff.
+$(call inherit-product, vendor/statix/config/common.mk)
+$(call inherit-product, vendor/statix/config/gsm.mk)
 
-PRODUCT_NAME := aosp_lunaa
+PRODUCT_NAME := statix_lunaa
 PRODUCT_DEVICE := lunaa
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -35,3 +36,8 @@ BUILD_FINGERPRINT := realme/RMX3360/RE54ABL1:13/TP1A.220905.001/R.136e3d6-af7c-1
 # NeutronOS flags
 TARGET_CUSTOM_BUILD_SIGNING := true
 TARGET_BUILD_UPDATER := true
+
+# StatiXOS flags
+ENABLE_GAMETOOLS := true
+TARGET_USES_BLUR := true
+INCLUDE_PIXEL_LAUNCHER := true

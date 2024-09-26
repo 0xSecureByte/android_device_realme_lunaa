@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lunaa.mk
+    $(LOCAL_DIR)/statix_lunaa.mk

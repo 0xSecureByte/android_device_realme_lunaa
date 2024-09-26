@@ -42,3 +42,7 @@ SOONG_CONFIG_OPLUS_LINEAGE_VIBRATOR_HAL_USE_EFFECT_STREAM := true
 
 # Include the proprietary files BoardConfig.
 include vendor/realme/lunaa/BoardConfigVendor.mk
+
+# TMP
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
