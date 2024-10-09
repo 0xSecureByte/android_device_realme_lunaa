@@ -31,6 +31,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.face.camera_id=1
 
+# Fingerprint
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.vendor.fingerprint.sensor_location=540|2175|96
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.st \
