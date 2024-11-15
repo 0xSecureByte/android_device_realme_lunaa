@@ -7,6 +7,7 @@
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+TARGET_BOARD_PLATFORM := lahaina
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -70,3 +71,4 @@ $(call inherit-product, device/oneplus/sm8350-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/realme/lunaa/lunaa-vendor.mk)
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true

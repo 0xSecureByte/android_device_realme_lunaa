@@ -11,8 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lunaa device
 $(call inherit-product, device/realme/lunaa/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some CLO stuffs
+$(call inherit-product, vendor/neutron/configs/nos_version.mk)
+$(call inherit-product, vendor/neutron/target/product/neutronos-target.mk)
+include vendor/neutron/configs/BoardConfigNeutron.mk
+include device/qcom/common/common64.mk
 
 PRODUCT_NAME := lineage_lunaa
 PRODUCT_DEVICE := lunaa
@@ -31,3 +34,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := realme/RMX3360/RE54ABL1:13/TP1A.220905.001/R.136e3d6-af7c-10d436:user/release-keys
+
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := lahaina
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
