@@ -10,14 +10,14 @@ include device/oneplus/sm8350-common/BoardConfigCommon.mk
 DEVICE_PATH := device/realme/lunaa
 
 # Boot
-BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 TARGET_NO_RECOVERY := true
 
 # Display
 TARGET_SCREEN_DENSITY := 450
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/yupik_QGKI.config
+# TARGET_KERNEL_CONFIG += vendor/oplus_yupik_QGKI.config
+KERNEL_FRAGMENT_CONFIG := vendor/oplus_yupik_QGKI.config
 
 # Partitions
 BOARD_ONEPLUS_DYNAMIC_PARTITIONS_SIZE := 10196353024 # BOARD_SUPER_PARTITION_SIZE - 4MB

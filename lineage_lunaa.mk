@@ -15,7 +15,6 @@ $(call inherit-product, device/realme/lunaa/device.mk)
 $(call inherit-product, vendor/neutron/configs/nos_version.mk)
 $(call inherit-product, vendor/neutron/target/product/neutronos-target.mk)
 include vendor/neutron/configs/BoardConfigNeutron.mk
-include device/qcom/common/common64.mk
 
 PRODUCT_NAME := lineage_lunaa
 PRODUCT_DEVICE := lunaa
@@ -39,3 +38,23 @@ BUILD_FINGERPRINT := realme/RMX3360/RE54ABL1:13/TP1A.220905.001/R.136e3d6-af7c-1
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := lahaina
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
+# Kernel modules
+VENDOR_RAMDISK_KERNEL_MODULES := adsp_loader_dlkm.ko msm_drm.ko
+
+# QTI Components
+TARGET_COMMON_QTI_COMPONENTS := \
+    adreno \
+    alarm \
+    audio \
+    av \
+    bt \
+    display \
+    gps \
+    media \
+    overlay \
+    perf \
+    usb \
+    wfd \
+    init \
+    wlan
