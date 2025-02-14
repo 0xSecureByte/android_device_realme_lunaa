@@ -1,5 +1,8 @@
 # Bluetooth
 bluetooth.device.default_name=realme GT Master Edition
 
+# Display
+vendor.display.use_layer_ext=1
+
 # USB
 vendor.usb.product_string=realme GT Master Edition
